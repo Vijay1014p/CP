@@ -1,0 +1,166 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Url",
+        "description": "",
+        "id": "end-to-end-scenario;url",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14246913700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter Application \"URL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.enter_Application(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Url"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "User Login with Valid credentials",
+        "description": "",
+        "id": "end-to-end-scenario;user-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5648225800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click \"signIn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signIn",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinition.click(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3423431800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Enter text \"email\" \"vijayakumar.s@trackdfect.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 12
+                },
+                {
+                  "val": "vijayakumar.s@trackdfect.com",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinition.enter_text(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3219221500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Enter text \"passWord\" \"abc@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "passWord",
+                  "offset": 12
+                },
+                {
+                  "val": "abc@123",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDefinition.enter_text(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6766946400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Click \"toSignIn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "toSignIn",
+                  "offset": 7
+                }
+              ],
+              "location": "StepDefinition.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3117153800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Verfiy \"loginPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginPage",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDefinition.verfiy(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 37,
+            "name": "@CreatedAccount"
+          }
+        ]
+      }
+    ],
+    "name": "End to End scenario",
+    "description": "",
+    "id": "end-to-end-scenario",
+    "keyword": "Feature",
+    "uri": "test.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Project"
+      }
+    ]
+  }
+]

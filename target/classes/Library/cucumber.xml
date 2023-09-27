@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="36.421893">
+<testcase classname="End to End scenario" name="Url" time="14.246914">
+<system-out><![CDATA[Given Enter Application "URL"...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="End to End scenario" name="User Login with Valid credentials" time="22.174979">
+<system-out><![CDATA[Given Click "signIn"........................................................passed
+And Enter text "email" "vijayakumar.s@trackdfect.com".......................passed
+And Enter text "passWord" "abc@123".........................................passed
+And Click "toSignIn"........................................................passed
+And Verfiy "loginPage"......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
