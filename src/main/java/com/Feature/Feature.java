@@ -59,7 +59,7 @@ public class Feature {
 							//System.out.println("Cell Index: "+cellIndex);
 							XSSFRow nextRow = ws.getRow(index + 1);
 							XSSFCell adjacentRowCell = nextRow
-									.getCell(cellIndex);
+									.getCell(cellSetIndex);
 							String adjacentRowCellVal = cellToString(adjacentRowCell);
 							//System.out.println("Cell Val: "+adjacentRowCellVal);
 							requiredCellVal = adjacentRowCellVal;
